@@ -1,0 +1,3 @@
+#模板 指定的索引字段
+{{object.name}}
+{{object.caption}}

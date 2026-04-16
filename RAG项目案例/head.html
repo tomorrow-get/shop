@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>RAG 知识库素材上传工具 | 智能文档处理 + AI对话</title>
+    <!-- 引入 Google Fonts 提升字体现代感 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <!-- 引入 Font Awesome 6 (免费图标库) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 引入 Vue 3 CDN (全局构建版) -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- 引入 axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(145deg, #f6f9fc 0%, #edf2f7 100%);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
+            padding: 2rem 1.5rem;
+            min-height: 100vh;
+            color: #1a2c3e;
+        }
+
+        /* 主容器 */
+        .upload-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.75);
+            backdrop-filter: blur(2px);
+            border-radius: 2rem;
+            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0,0,0,0.02);
+            padding: 1.8rem 2rem 2.2rem;
+            transition: all 0.2s ease;
+        }
+
+        /* 头部 */
+        .header {
+            margin-bottom: 2rem;
+            border-bottom: 2px solid rgba(59, 130, 246, 0.2);
+            padding-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .title-section h1 {
+            font-size: 1.85rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #1E3A8A, #3B82F6);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            letter-spacing: -0.3px;
+        }
+        .title-section p {
+            font-size: 0.9rem;
+            color: #4b5563;
+            margin-top: 0.4rem;
+            font-weight: 450;
+        }
+        .badge {
+            background: #eef2ff;
+            padding: 0.4rem 1rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #2563eb;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* 拖拽区域 */
+        .drop-zone {
+            background: #ffffff;
+            border: 2px dashed #cbd5e1;
+            border-radius: 1.5rem;
+            padding: 2.5rem 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+        }
+        .drop-zone:hover {
+            border-color: #3b82f6;
+            background: #fafcff;
+            transform: scale(0.99);
+        }
+        .drop-zone.active {
+            border-color: #2563eb;
+            background: #eff6ff;
+            box-shadow: 0 8px 20px -10px rgba(37,99,235,0.2);
+        }
+        .drop-zone i {
+            font-size: 3rem;
+            color: #3b82f6;
+            margin-bottom: 1rem;
+        }
+        .drop-zone h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .drop-zone p {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        .file-input-hidden {
+            display: none;
+        }
+
+        /* 工具栏 */
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+            gap: 1rem;
+        }
+        .info-stats {
+            font-size: 0.85rem;
+            background: #f1f5f9;
+            padding: 0.35rem 1rem;
+            border-radius: 40px;
+            font-weight: 500;
+        }
+        .btn-group {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            border: none;
+            padding: 0.55rem 1.2rem;
+            border-radius: 40px;
+            font-weight: 500;
+            font-size: 0.85rem;
+            font-family: inherit;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: white;
+            color: #1f2937;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+        }
+        .btn-primary {
+            background: #2563eb;
+            border-color: #2563eb;
+            color: white;
+            box-shadow: 0 4px 8px -2px rgba(37,99,235,0.3);
+        }
+        .btn-primary:hover:not(:disabled) {
+            background: #1d4ed8;
+            transform: translateY(-1px);
+        }
+        .btn-outline {
+            border: 1px solid #cbd5e1;
+            background: white;
+        }
+        .btn-outline:hover:not(:disabled) {
+            background: #f8fafc;
+            border-color: #94a3b8;
+        }
+        .btn-danger {
+            border-color: #fee2e2;
+            color: #b91c1c;
+        }
+        .btn-danger:hover:not(:disabled) {
+            background: #fef2f2;
+            border-color: #fecaca;
+        }
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* 文件列表卡片 */
+        .file-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 4px;
+            margin-bottom: 2rem;
+        }
+        .file-card {
+            background: white;
+            border-radius: 1.2rem;
+            padding: 1rem 1.2rem;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0,0,0,0.05);
+            border: 1px solid #edf2f7;
+            transition: all 0.2s;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+        .file-info {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex: 3 1 240px;
+            min-width: 180px;
+        }
+        .file-icon {
+            font-size: 1.8rem;
+            width: 44px;
+            text-align: center;
+            color: #3b82f6;
+        }
+        .file-details {
+            flex: 1;
+        }
+        .file-name {
+            font-weight: 600;
+            word-break: break-all;
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+        }
+        .file-meta {
+            font-size: 0.7rem;
+            color: #6c757d;
+            display: flex;
+            gap: 12px;
+        }
+        .progress-area {
+            flex: 2 1 200px;
+            min-width: 140px;
+        }
+        .progress-wrapper {
+            background: #e9ecef;
+            border-radius: 30px;
+            height: 8px;
+            overflow: hidden;
+            width: 100%;
+        }
+        .progress-fill {
+            background: #3b82f6;
+            width: 0%;
+            height: 100%;
+            border-radius: 30px;
+            transition: width 0.2s ease;
+        }
+        .progress-fill.error {
+            background: #ef4444;
+        }
+        .progress-fill.success {
+            background: #10b981;
+        }
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin-top: 6px;
+        }
+        .file-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .icon-btn {
+            background: none;
+            border: none;
+            font-size: 1.1rem;
+            cursor: pointer;
+            color: #6c757d;
+            transition: 0.1s;
+            padding: 6px;
+            border-radius: 30px;
+        }
+        .icon-btn:hover {
+            color: #1e293b;
+            background: #f1f5f9;
+        }
+        .icon-btn.delete:hover {
+            color: #dc2626;
+        }
+        .empty-state {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #8ba0b5;
+        }
+
+        /* AI 对话区域样式 */
+        .chat-section {
+            margin-top: 2rem;
+            border-top: 2px solid rgba(59, 130, 246, 0.2);
+            padding-top: 1.5rem;
+        }
+        .chat-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: #1f2937;
+        }
+        .chat-messages {
+            background: #ffffffd9;
+            border-radius: 1.2rem;
+            padding: 1rem;
+            height: 380px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #eef2ff;
+        }
+        .message {
+            display: flex;
+            max-width: 85%;
+        }
+        .message.user {
+            align-self: flex-end;
+            justify-content: flex-end;
+        }
+        .message.assistant {
+            align-self: flex-start;
+        }
+        .bubble {
+            padding: 0.75rem 1rem;
+            border-radius: 1.2rem;
+            line-height: 1.5;
+            font-size: 0.9rem;
+            word-break: break-word;
+            white-space: pre-wrap;
+        }
+        .user .bubble {
+            background: #2563eb;
+            color: white;
+            border-bottom-right-radius: 0.2rem;
+        }
+        .assistant .bubble {
+            background: #f1f5f9;
+            color: #1e293b;
+            border-bottom-left-radius: 0.2rem;
+        }
+        .chat-input-area {
+            display: flex;
+            gap: 12px;
+            align-items: flex-end;
+        }
+        .chat-input {
+            flex: 1;
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 2rem;
+            padding: 0.75rem 1.2rem;
+            font-family: inherit;
+            font-size: 0.9rem;
+            resize: vertical;
+            outline: none;
+            transition: 0.2s;
+        }
+        .chat-input:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+        }
+        .send-btn {
+            background: #2563eb;
+            border: none;
+            color: white;
+            border-radius: 2rem;
+            padding: 0.75rem 1.4rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .send-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        .send-btn:hover:not(:disabled) {
+            background: #1d4ed8;
+            transform: translateY(-1px);
+        }
+        .stop-btn {
+            background: #ef4444;
+            border: none;
+            color: white;
+            border-radius: 2rem;
+            padding: 0.75rem 1.2rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .stop-btn:hover {
+            background: #dc2626;
+        }
+        .typing-indicator {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background: #f1f5f9;
+            border-radius: 1rem;
+            width: fit-content;
+            font-size: 0.8rem;
+            color: #4b5563;
+        }
+        .typing-indicator i {
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+        .toast-message {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: #1f2937;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 48px;
+            font-size: 0.85rem;
+            z-index: 1000;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: opacity 0.2s;
+        }
+
+        @media (max-width: 680px) {
+            .upload-container {
+                padding: 1.2rem;
+            }
+            .file-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .file-actions {
+                align-self: flex-end;
+            }
+            .progress-area {
+                width: 100%;
+            }
+            .message {
+                max-width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div class="upload-container">
+        <!-- 头部区域 -->
+        <div class="header">
+            <div class="title-section">
+                <h1><i class="fas fa-database" style="margin-right: 10px; background: none; -webkit-background-clip: unset; color: #2563eb;"></i> RAG 素材工坊</h1>
+                <p>智能知识库构建 · 支持 PDF, Word, Markdown, TXT 等文档上传 + AI 对话助手</p>
+            </div>
+            <div class="badge">
+                <i class="fas fa-cloud-upload-alt"></i> 离线上传 · 断点重试
+            </div>
+        </div>
+
+        <!-- 拖拽上传区 -->
+        <div class="drop-zone"
+             @dragover.prevent="onDragOver"
+             @dragleave="onDragLeave"
+             @drop.prevent="onDrop"
+             @click="triggerFileInput"
+             :class="{ active: isDragOver }">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <h3>拖拽文件至此区域 或 点击浏览</h3>
+            <p>支持 .pdf, .txt, .md, .docx, .pptx, .xlsx 等 (单个文件 ≤ 100MB)</p>
+            <input type="file" ref="fileInput" multiple class="file-input-hidden" @change="handleFileSelect" accept=".pdf,.txt,.md,.doc,.docx,.pptx,.xlsx,.csv,.json,.html,.xml">
+        </div>
+
+        <!-- 工具栏 -->
+        <div class="toolbar">
+            <div class="info-stats">
+                <i class="fas fa-file-alt"></i> 共 {{ fileList.length }} 个文件 ·
+                <span v-if="uploadingActive" style="color:#2563eb;"><i class="fas fa-spinner fa-pulse"></i> 上传中</span>
+                <span v-else>就绪</span>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-outline" @click="clearAllFiles" :disabled="uploadingActive || fileList.length === 0">
+                    <i class="fas fa-trash-alt"></i> 清空全部
+                </button>
+                <button class="btn btn-primary" @click="startUploadAll" :disabled="uploadingActive || pendingOrFailedCount === 0">
+                    <i class="fas fa-play"></i> 开始上传 ({{ pendingOrFailedCount }})
+                </button>
+                <button class="btn btn-outline" @click="cancelAllUploads" v-if="uploadingActive" style="border-color:#f97316; color:#ea580c;">
+                    <i class="fas fa-stop"></i> 停止上传
+                </button>
+            </div>
+        </div>
+
+        <!-- 文件列表展示 -->
+        <div class="file-list" v-if="fileList.length">
+            <div v-for="item in fileList" :key="item.id" class="file-card">
+                <div class="file-info">
+                    <div class="file-icon">
+                        <i :class="getFileIcon(item.file.name)"></i>
+                    </div>
+                    <div class="file-details">
+                        <div class="file-name" :title="item.file.name">{{ truncateName(item.file.name, 45) }}</div>
+                        <div class="file-meta">
+                            <span>{{ formatFileSize(item.file.size) }}</span>
+                            <span v-if="item.status === 'success'" class="success-text" style="color:#10b981;"><i class="fas fa-check-circle"></i> 已完成</span>
+                            <span v-else-if="item.status === 'failed'" style="color:#dc2626;"><i class="fas fa-exclamation-circle"></i> 失败: {{ item.errorMsg || '网络异常' }}</span>
+                            <span v-else-if="item.status === 'uploading'" style="color:#3b82f6;"><i class="fas fa-sync-alt fa-spin"></i> 上传中 {{ item.progress }}%</span>
+                            <span v-else style="color:#6c757d;"><i class="fas fa-hourglass-half"></i> 等待上传</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-area" v-if="item.status !== 'success'">
+                    <div class="progress-wrapper">
+                        <div class="progress-fill" :class="{'error': item.status === 'failed', 'success': item.status === 'success'}" :style="{ width: item.progress + '%' }"></div>
+                    </div>
+                    <div class="status-badge" v-if="item.status === 'uploading'">{{ item.progress }}%</div>
+                </div>
+                <div class="file-actions">
+                    <button class="icon-btn" @click="retrySingleFile(item)" :disabled="uploadingActive || item.status === 'uploading'" title="重试上传">
+                        <i class="fas fa-redo-alt"></i>
+                    </button>
+                    <button class="icon-btn delete" @click="removeFile(item.id)" :disabled="uploadingActive && item.status === 'uploading'" title="移除文件">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div v-else class="empty-state">
+            <i class="fas fa-inbox" style="font-size: 2.5rem; opacity: 0.5; margin-bottom: 0.5rem; display: block;"></i>
+            <p>暂无文件，请拖拽或点击上方区域添加文档素材</p>
+        </div>
+
+        <!-- ========= 新增 AI 对话区域 ========= -->
+        <div class="chat-section">
+            <div class="chat-title">
+                <i class="fas fa-robot" style="color:#2563eb;"></i> AI 智能助手 (RAG 知识问答)
+                <span style="font-size:0.7rem; background:#eef2ff; padding:0.2rem 0.6rem; border-radius:20px;">流式回答</span>
+            </div>
+            <div class="chat-messages" ref="chatMessagesContainer">
+                <div v-for="(msg, idx) in messages" :key="idx" :class="['message', msg.role]">
+                    <div class="bubble">
+                        {{ msg.content }}
+                    </div>
+                </div>
+                <div v-if="isStreaming" class="message assistant">
+                    <div class="bubble" style="background:#f1f5f9;">
+                        <span v-if="streamingBuffer">{{ streamingBuffer }}</span>
+                        <span v-else class="typing-indicator"><i class="fas fa-circle" style="font-size: 0.4rem;"></i><i class="fas fa-circle" style="font-size: 0.4rem;"></i><i class="fas fa-circle" style="font-size: 0.4rem;"></i> 思考中...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <textarea rows="1" class="chat-input" placeholder="输入您的问题，例如：这份文档讲了什么？" v-model="userInput" @keydown.ctrl.enter="sendMessage" :disabled="isStreaming"></textarea>
+                <button v-if="!isStreaming" class="send-btn" @click="sendMessage" :disabled="!userInput.trim()">
+                    <i class="fas fa-paper-plane"></i> 发送
+                </button>
+                <button v-else class="stop-btn" @click="stopStreaming">
+                    <i class="fas fa-stop"></i> 停止
+                </button>
+            </div>
+            <div style="font-size:0.7rem; margin-top: 0.5rem; text-align: right; color:#6c757d;">
+                <i class="fas fa-info-circle"></i> 支持 Ctrl+Enter 快捷发送
+            </div>
+        </div>
+    </div>
+    <!-- 临时toast提示 -->
+    <div v-if="toastMsg" class="toast-message">
+        {{ toastMsg }}
+    </div>
+</div>
+
+<script>
+    const { createApp, ref, computed, onUnmounted, nextTick } = Vue;
+
+    // ---------- 后端接口配置 ----------
+    // 文件上传接口 (与之前一致)
+    const API_BASE_URL = 'http://localhost:8001/api';
+    const UPLOAD_ENDPOINT = `${API_BASE_URL}/rag/upload`;
+    // AI 对话流式接口 (后端需要实现 POST /api/chat/stream，返回 text/event-stream 或纯文本流)
+    // 约定请求格式: { "query": "用户问题" }
+    // 响应: 流式数据，可以是 SSE 格式 (data: 内容) 或纯文本块，本示例同时支持两种
+    const CHAT_STREAM_URL = `${API_BASE_URL}/chat/stream`;
+
+    // 文件上传相关配置保持不变
+    const ALLOWED_EXTENSIONS = ['pdf', 'txt', 'md', 'doc', 'docx', 'pptx', 'xlsx', 'csv', 'json', 'html', 'xml', 'markdown'];
+    const MAX_FILE_SIZE = 100 * 1024 * 1024;
+
+    function getFileExtension(filename) {
+        return filename.slice(((filename.lastIndexOf(".") - 1) >>> 0) + 2).toLowerCase();
+    }
+
+    function isValidFileType(file) {
+        const ext = getFileExtension(file.name);
+        return ALLOWED_EXTENSIONS.includes(ext);
+    }
+
+    function formatFileSize(bytes) {
+        if (bytes === 0) return '0 B';
+        const k = 1024;
+        const sizes = ['B', 'KB', 'MB', 'GB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + sizes[i];
+    }
+
+    function truncateName(name, len) {
+        if (name.length <= len) return name;
+        return name.slice(0, len - 3) + '...';
+    }
+
+    function getFileIcon(filename) {
+        const ext = getFileExtension(filename);
+        if (['pdf'].includes(ext)) return 'fas fa-file-pdf';
+        if (['doc', 'docx'].includes(ext)) return 'fas fa-file-word';
+        if (['xlsx', 'csv'].includes(ext)) return 'fas fa-file-excel';
+        if (['ppt', 'pptx'].includes(ext)) return 'fas fa-file-powerpoint';
+        if (['txt', 'md', 'markdown'].includes(ext)) return 'fas fa-file-alt';
+        if (['json', 'xml', 'html'].includes(ext)) return 'fas fa-code';
+        return 'fas fa-file';
+    }
+
+    createApp({
+        setup() {
+            // ---------- 文件上传状态 ----------
+            const fileList = ref([]);
+            const isDragOver = ref(false);
+            const fileInput = ref(null);
+            const uploadingActive = ref(false);
+            const toastMsg = ref('');
+            let uploadQueueCancelFlag = false;
+
+            const pendingOrFailedCount = computed(() => {
+                return fileList.value.filter(f => f.status === 'pending' || f.status === 'failed').length;
+            });
+
+            const showToast = (msg, duration = 2500) => {
+                toastMsg.value = msg;
+                setTimeout(() => { if (toastMsg.value === msg) toastMsg.value = ''; }, duration);
+            };
+
+            // 文件上传函数 (与原来保持一致)
+            const addFiles = (files) => {
+                const newFiles = [];
+                for (let i = 0; i < files.length; i++) {
+                    const file = files[i];
+                    if (!isValidFileType(file)) {
+                        showToast(`不支持的文件类型: ${file.name}，允许: ${ALLOWED_EXTENSIONS.join(', ')}`, 3000);
+                        continue;
+                    }
+                    if (file.size > MAX_FILE_SIZE) {
+                        showToast(`文件过大: ${file.name} (超过100MB)`, 3000);
+                        continue;
+                    }
+                    const duplicate = fileList.value.some(f => f.file.name === file.name && f.file.size === file.size && f.file.lastModified === file.lastModified);
+                    if (duplicate) {
+                        showToast(`文件已存在: ${file.name}`, 2000);
+                        continue;
+                    }
+                    newFiles.push({
+                        id: Date.now() + i + Math.random() * 10000,
+                        file: file,
+                        status: 'pending',
+                        progress: 0,
+                        errorMsg: null,
+                        abortController: null,
+                    });
+                }
+                if (newFiles.length) {
+                    fileList.value.push(...newFiles);
+                    showToast(`成功添加 ${newFiles.length} 个文件`, 1500);
+                }
+            };
+
+            const removeFile = (id) => {
+                const index = fileList.value.findIndex(item => item.id === id);
+                if (index === -1) return;
+                const target = fileList.value[index];
+                if (target.status === 'uploading' && target.abortController) {
+                    target.abortController.abort();
+                }
+                fileList.value.splice(index, 1);
+                if (uploadingActive.value && pendingOrFailedCount.value === 0) {
+                    uploadingActive.value = false;
+                    uploadQueueCancelFlag = false;
+                }
+            };
+
+            const clearAllFiles = () => {
+                if (uploadingActive.value) {
+                    cancelAllUploads();
+                }
+                fileList.value.forEach(f => {
+                    if (f.abortController) f.abortController.abort();
+                });
+                fileList.value = [];
+                uploadingActive.value = false;
+                uploadQueueCancelFlag = false;
+            };
+
+            const uploadSingleFile = async (fileItem) => {
+                if (!fileItem || fileItem.status === 'success') return { success: true };
+                fileItem.status = 'uploading';
+                fileItem.progress = 0;
+                fileItem.errorMsg = null;
+                const formData = new FormData();
+                formData.append('file', fileItem.file);
+                const abortCtrl = new AbortController();
+                fileItem.abortController = abortCtrl;
+                try {
+                    const response = await axios.post(UPLOAD_ENDPOINT, formData, {
+                        signal: abortCtrl.signal,
+                        onUploadProgress: (progressEvent) => {
+                            if (progressEvent.total) {
+                                fileItem.progress = Math.round((progressEvent.loaded * 100) / progressEvent.total);
+                            }
+                        },
+                        headers: { 'Content-Type': 'multipart/form-data' }
+                    });
+                    if (response.data && response.data.code === 200) {
+                        fileItem.status = 'success';
+                        fileItem.progress = 100;
+                        showToast(`✅ 上传成功: ${fileItem.file.name}`, 1500);
+                        return { success: true };
+                    } else {
+                        throw new Error(response.data?.message || '上传失败');
+                    }
+                } catch (error) {
+                    if (axios.isCancel(error) || error.code === 'ERR_CANCELED') {
+                        fileItem.status = 'pending';
+                        fileItem.progress = 0;
+                        fileItem.errorMsg = '已取消';
+                        throw { canceled: true };
+                    } else {
+                        fileItem.status = 'failed';
+                        fileItem.errorMsg = error.message || '网络异常';
+                        showToast(`❌ 上传失败: ${fileItem.file.name}`, 3000);
+                        throw { failed: true };
+                    }
+                } finally {
+                    fileItem.abortController = null;
+                }
+            };
+
+            const startUploadAll = async () => {
+                if (uploadingActive.value) {
+                    showToast('已有上传任务进行中', 2000);
+                    return;
+                }
+                const pendingFiles = fileList.value.filter(f => f.status === 'pending' || f.status === 'failed');
+                if (pendingFiles.length === 0) return;
+                uploadingActive.value = true;
+                uploadQueueCancelFlag = false;
+                for (let i = 0; i < pendingFiles.length; i++) {
+                    if (uploadQueueCancelFlag) break;
+                    const currentItem = fileList.value.find(f => f.id === pendingFiles[i].id);
+                    if (!currentItem || currentItem.status === 'success') continue;
+                    try {
+                        await uploadSingleFile(currentItem);
+                    } catch (err) {
+                        if (err.canceled) break;
+                    }
+                }
+                uploadingActive.value = false;
+                uploadQueueCancelFlag = false;
+                if (fileList.value.every(f => f.status === 'success') && fileList.value.length) {
+                    showToast('🎉 所有文件上传完成！', 2500);
+                }
+            };
+
+            const cancelAllUploads = () => {
+                if (!uploadingActive.value) return;
+                uploadQueueCancelFlag = true;
+                const uploadingItem = fileList.value.find(f => f.status === 'uploading');
+                if (uploadingItem && uploadingItem.abortController) uploadingItem.abortController.abort();
+                uploadingActive.value = false;
+                showToast('已中止上传任务', 1500);
+            };
+
+            const retrySingleFile = async (item) => {
+                if (uploadingActive.value) {
+                    showToast('请先停止当前上传任务', 2000);
+                    return;
+                }
+                if (item.status === 'success') return;
+                item.status = 'pending';
+                item.progress = 0;
+                item.errorMsg = null;
+                uploadingActive.value = true;
+                uploadQueueCancelFlag = false;
+                try {
+                    await uploadSingleFile(item);
+                } catch (e) {}
+                uploadingActive.value = false;
+            };
+
+            // 拖拽事件
+            const onDragOver = (e) => { isDragOver.value = true; };
+            const onDragLeave = () => { isDragOver.value = false; };
+            const onDrop = (e) => {
+                isDragOver.value = false;
+                const files = e.dataTransfer.files;
+                if (files && files.length) addFiles(Array.from(files));
+            };
+            const triggerFileInput = () => { fileInput.value.click(); };
+            const handleFileSelect = (e) => {
+                const files = e.target.files;
+                if (files && files.length) addFiles(Array.from(files));
+                e.target.value = '';
+            };
+
+            // ---------- AI 对话模块 ----------
+            const messages = ref([]);
+            const userInput = ref('');
+            const isStreaming = ref(false);
+            const streamingBuffer = ref('');      // 流式过程中的临时文本
+            let abortController = null;            // 用于中断流式请求
+            const chatMessagesContainer = ref(null);
+
+            // 自动滚动到底部
+            const scrollToBottom = async () => {
+                await nextTick();
+                if (chatMessagesContainer.value) {
+                    chatMessagesContainer.value.scrollTop = chatMessagesContainer.value.scrollHeight;
+                }
+            };
+
+            // 发送消息并获取流式响应
+            const sendMessage = async () => {
+                const query = userInput.value.trim();
+                if (!query || isStreaming.value) return;
+                // 添加用户消息
+                messages.value.push({ role: 'user', content: query });
+                userInput.value = '';
+                scrollToBottom();
+
+                // 准备助手消息占位 (流式追加)
+                isStreaming.value = true;
+                streamingBuffer.value = '';
+                abortController = new AbortController();
+
+                try {
+                    const response = await fetch(CHAT_STREAM_URL, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ query: query }),
+                        signal: abortController.signal
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+
+                    const reader = response.body.getReader();
+                    const decoder = new TextDecoder('utf-8');
+                    let buffer = '';          // 用于处理跨chunk的数据（SSE或纯文本）
+
+                    while (true) {
+                        const { done, value } = await reader.read();
+                        if (done) break;
+                        const chunk = decoder.decode(value, { stream: true });
+                        buffer += chunk;
+
+                        // 尝试按行解析，同时支持 SSE 格式 (data: xxx) 和纯文本流
+                        let lines = buffer.split('\n');
+                        buffer = lines.pop(); // 保留不完整的行
+
+                        for (let line of lines) {
+                            line = line.trim();
+                            if (line === '') continue;
+                            // 如果行以 "data:" 开头，处理 SSE 格式
+                            if (line.startsWith('data:')) {
+                                let content = line.slice(5).trim();
+                                if (content === '[DONE]') continue;
+                                streamingBuffer.value += content;
+                            } else {
+                                // 否则当作纯文本块直接追加
+                                streamingBuffer.value += line;
+                            }
+                        }
+                        // 每次更新后滚动到底部
+                        await scrollToBottom();
+                    }
+
+                    // 流结束，将最终内容存入消息列表
+                    if (streamingBuffer.value) {
+                        messages.value.push({ role: 'assistant', content: streamingBuffer.value });
+                    } else {
+                        messages.value.push({ role: 'assistant', content: '(无内容返回)' });
+                    }
+                } catch (error) {
+                    if (error.name === 'AbortError') {
+                        // 用户主动停止，保留已生成的部分内容
+                        if (streamingBuffer.value) {
+                            messages.value.push({ role: 'assistant', content: streamingBuffer.value + ' [已停止]' });
+                        } else {
+                            messages.value.push({ role: 'assistant', content: '[已停止生成]' });
+                        }
+                    } else {
+                        console.error('流式请求失败', error);
+                        messages.value.push({ role: 'assistant', content: `❌ 请求失败: ${error.message}` });
+                        showToast('AI 服务连接失败，请检查后端', 3000);
+                    }
+                } finally {
+                    isStreaming.value = false;
+                    streamingBuffer.value = '';
+                    abortController = null;
+                    scrollToBottom();
+                }
+            };
+
+            const stopStreaming = () => {
+                if (abortController) {
+                    abortController.abort();
+                }
+            };
+
+            // 清理资源
+            onUnmounted(() => {
+                if (abortController) abortController.abort();
+                fileList.value.forEach(f => {
+                    if (f.abortController) f.abortController.abort();
+                });
+            });
+
+            return {
+                // 文件上传
+                fileList, isDragOver, fileInput, uploadingActive, pendingOrFailedCount, toastMsg,
+                addFiles, removeFile, clearAllFiles, startUploadAll, cancelAllUploads, retrySingleFile,
+                onDragOver, onDragLeave, onDrop, triggerFileInput, handleFileSelect,
+                formatFileSize, getFileIcon, truncateName,
+                // AI 对话
+                messages, userInput, isStreaming, streamingBuffer, chatMessagesContainer,
+                sendMessage, stopStreaming
+            };
+        }
+    }).mount('#app');
+</script>
+</body>
+</html>

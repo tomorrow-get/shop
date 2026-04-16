@@ -1,0 +1,2235 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /deail/1
+"GET /deail/1 HTTP/1.1" 404 5956
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5968
+Watching for file changes with StatReloader
+Not Found: /deail/1/
+"GET /deail/1/ HTTP/1.1" 404 5959
+Not Found: /detail/1/
+"GET /detail/1/ HTTP/1.1" 404 5962
+Watching for file changes with StatReloader
+"GET /detail/1/ HTTP/1.1" 200 8808
+Not Found: /images/logo.png
+"GET /images/logo.png HTTP/1.1" 404 5981
+"GET /detail/1/ HTTP/1.1" 200 8808
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6155
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6155
+"GET /list/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 575
+"GET /hot/157/ HTTP/1.1" 200 461
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"OPTIONS /detail/visit/157/ HTTP/1.1" 200 0
+Not Found: /browse_histories/
+Not Found: /carts/simple/
+"POST /browse_histories/ HTTP/1.1" 404 6168
+"GET /carts/simple/ HTTP/1.1" 404 6155
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"OPTIONS /detail/visit/157/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+"GET /info/ HTTP/1.1" 200 55
+"GET /browse_histories/ HTTP/1.1" 200 55
+"OPTIONS /login/ HTTP/1.1" 200 0
+"POST /login/ HTTP/1.1" 200 75
+"POST /login/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 39
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+"GET /hot/115/ HTTP/1.1" 200 802
+"OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 312
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"POST /browse_histories/ HTTP/1.1" 200 27
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"POST /browse_histories/ HTTP/1.1" 200 27
+"GET /list/116/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 163
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /hot/116/ HTTP/1.1" 200 43
+"GET /list/128/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 163
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /hot/128/ HTTP/1.1" 200 43
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /hot/157/ HTTP/1.1" 200 461
+"GET /list/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 575
+"POST /browse_histories/ HTTP/1.1" 200 27
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 1074
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+"POST /browse_histories/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 1281
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /hot/349/ HTTP/1.1" 200 43
+"GET /list/349/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 157
+Not Found: /carts/simple/
+"GET /list/402/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 157
+"GET /hot/402/ HTTP/1.1" 200 43
+"GET /carts/simple/ HTTP/1.1" 404 6319
+Not Found: /carts/simple/
+"GET /list/158/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 157
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /hot/158/ HTTP/1.1" 200 43
+"GET /list/221/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 163
+"GET /hot/221/ HTTP/1.1" 200 43
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6319
+"GET /list/147/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 163
+"GET /hot/147/ HTTP/1.1" 200 43
+Watching for file changes with StatReloader
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+"GET /hot/115/ HTTP/1.1" 200 802
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"OPTIONS /carts/ HTTP/1.1" 200 0
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 40, in post
+    cookie_data = pickle.loads(base64.b64decode(request.COOKIES.get('carts')))
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+"POST /carts/ HTTP/1.1" 500 90725
+Watching for file changes with StatReloader
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 40, in post
+    cookie_data = pickle.loads(base64.b64decode(request.COOKIES.get('carts')))
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+"POST /carts/ HTTP/1.1" 500 108363
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 82, in get
+    cookie_data = pickle.loads(base64.b64decode(request.COOKIES.get('carts')))
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+"GET /carts/ HTTP/1.1" 500 107541
+Watching for file changes with StatReloader
+"POST /carts/ HTTP/1.1" 200 27
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 97, in get
+    'price': data['price'],
+KeyError: 'price'
+"GET /carts/ HTTP/1.1" 500 100577
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 97, in get
+    'price': data['price'],
+KeyError: 'price'
+"GET /carts/ HTTP/1.1" 500 100577
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 106
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 84, in get
+    cookie_data = pickle.loads(base64.b64decode(request.COOKIES.get('carts')))
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+"GET /carts/ HTTP/1.1" 500 89903
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 106
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 102
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 200
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /hot/115/ HTTP/1.1" 200 802
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 200
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+Method Not Allowed (PUT): /carts/
+Method Not Allowed: /carts/
+"PUT /carts/ HTTP/1.1" 405 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 200
+Watching for file changes with StatReloader
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /carts/ HTTP/1.1" 200 27
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /carts/ HTTP/1.1" 200 27
+"POST /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 358
+Watching for file changes with StatReloader
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /carts/ HTTP/1.1" 200 358
+"OPTIONS /carts/ HTTP/1.1" 200 0
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"DELETE /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 200
+"GET /carts/ HTTP/1.1" 200 200
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /hot/115/ HTTP/1.1" 200 802
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 358
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 358
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 358
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 358
+"DELETE /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 200
+"GET /carts/ HTTP/1.1" 200 200
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 358
+"DELETE /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 200
+"GET /carts/ HTTP/1.1" 200 200
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 200
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 200
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 367
+"OPTIONS /carts/ HTTP/1.1" 200 0
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 366
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 366
+"PUT /carts/ HTTP/1.1" 200 27
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 366
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 113, in get
+    'selected': data['selected'],
+KeyError: 'selected'
+"GET /carts/ HTTP/1.1" 500 101967
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 113, in get
+    'selected': data['selected'],
+KeyError: 'selected'
+"GET /carts/ HTTP/1.1" 500 101967
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 113, in get
+    'selected': data['selected'],
+KeyError: 'selected'
+"GET /carts/ HTTP/1.1" 500 101967
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 113, in get
+    'selected': data['selected'],
+KeyError: 'selected'
+"GET /carts/ HTTP/1.1" 500 101967
+Watching for file changes with StatReloader
+"POST /carts/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /list/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 575
+"GET /hot/157/ HTTP/1.1" 200 461
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"OPTIONS /detail/visit/157/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 113, in get
+    'selected': data['selected'],
+KeyError: 'selected'
+"GET /carts/ HTTP/1.1" 500 84454
+"POST /carts/ HTTP/1.1" 200 27
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 113, in get
+    'selected': data['selected'],
+KeyError: 'selected'
+"GET /carts/ HTTP/1.1" 500 84454
+"OPTIONS /carts/selection/ HTTP/1.1" 200 0
+Not Found: /carts/selection/
+"PUT /carts/selection/ HTTP/1.1" 404 6481
+Not Found: /carts/selection/
+"PUT /carts/selection/ HTTP/1.1" 404 6481
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+Watching for file changes with StatReloader
+"POST /carts/ HTTP/1.1" 200 27
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+"GET /hot/115/ HTTP/1.1" 200 802
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /browse_histories/ HTTP/1.1" 200 55
+"OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 627
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 628
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 629
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 628
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 628
+Not Found: /carts/selection/
+"PUT /carts/selection/ HTTP/1.1" 404 6481
+Not Found: /carts/selection/
+"PUT /carts/selection/ HTTP/1.1" 404 6481
+Not Found: /carts/selection/
+"PUT /carts/selection/ HTTP/1.1" 404 6481
+Not Found: /carts/selection/
+"PUT /carts/selection/ HTTP/1.1" 404 6481
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 629
+"PUT /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 629
+"GET /carts/ HTTP/1.1" 200 629
+Not Found: /carts/selection/
+"PUT /carts/selection/ HTTP/1.1" 404 6481
+Not Found: /carts/selection/
+"PUT /carts/selection/ HTTP/1.1" 404 6481
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 73
+"GET /carts/ HTTP/1.1" 200 629
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 73
+"PUT /carts/ HTTP/1.1" 200 73
+"GET /carts/ HTTP/1.1" 200 629
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 73
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 629
+"OPTIONS /carts/ HTTP/1.1" 200 0
+"PUT /carts/ HTTP/1.1" 200 73
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 629
+"GET /carts/ HTTP/1.1" 200 629
+"GET /carts/ HTTP/1.1" 200 629
+"PUT /carts/ HTTP/1.1" 200 73
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 630
+"PUT /carts/ HTTP/1.1" 200 73
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 630
+"PUT /carts/ HTTP/1.1" 200 73
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 73
+"PUT /carts/ HTTP/1.1" 200 73
+"GET /carts/ HTTP/1.1" 200 630
+"PUT /carts/ HTTP/1.1" 200 73
+"GET /carts/ HTTP/1.1" 200 630
+"GET /info/ HTTP/1.1" 200 55
+"GET /browse_histories/ HTTP/1.1" 200 55
+"PUT /carts/ HTTP/1.1" 200 73
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 630
+"PUT /carts/ HTTP/1.1" 200 73
+"GET /carts/ HTTP/1.1" 200 630
+"GET /info/ HTTP/1.1" 200 55
+"GET /browse_histories/ HTTP/1.1" 200 55
+"OPTIONS /login/ HTTP/1.1" 200 0
+"POST /login/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /carts/ HTTP/1.1" 200 44
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+Watching for file changes with StatReloader
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /browse_histories/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /hot/157/ HTTP/1.1" 200 461
+"GET /list/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 575
+"OPTIONS /detail/visit/157/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 84, in get
+    'default_image_url': sku.default_image_url,
+AttributeError: 'SKU' object has no attribute 'default_image_url'
+"GET /carts/ HTTP/1.1" 500 85427
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 84, in get
+    'default_image_url': sku.default_image_url,
+AttributeError: 'SKU' object has no attribute 'default_image_url'
+"GET /carts/ HTTP/1.1" 500 85427
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 84, in get
+    'default_image_url': sku.default_image_url,
+AttributeError: 'SKU' object has no attribute 'default_image_url'
+"GET /carts/ HTTP/1.1" 500 103065
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 84, in get
+    'default_image_url': sku.default_image_url,
+AttributeError: 'SKU' object has no attribute 'default_image_url'
+"GET /carts/ HTTP/1.1" 500 103065
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 84, in get
+    'default_image_url': sku.default_image_url,
+AttributeError: 'SKU' object has no attribute 'default_image_url'
+"GET /carts/ HTTP/1.1" 500 103065
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 85, in get
+    'amount': price * count,
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+"GET /carts/ HTTP/1.1" 500 103013
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 85, in get
+    'amount': price * count,
+TypeError: can't multiply sequence by non-int of type 'decimal.Decimal'
+"GET /carts/ HTTP/1.1" 500 103013
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 90, in get
+    return JsonResponse({'code': 0, 'errmsg': 'ok', 'cart_skus': cart_skus})
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\http\response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\serializers\json.py", line 106, in default
+    return super().default(o)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+"GET /carts/ HTTP/1.1" 500 136506
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 90, in get
+    return JsonResponse({'code': 0, 'errmsg': 'ok', 'cart_skus': cart_skus})
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\http\response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\serializers\json.py", line 106, in default
+    return super().default(o)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+"GET /carts/ HTTP/1.1" 500 136506
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+- Broken pipe from ('127.0.0.1', 56514)
+"GET /carts/ HTTP/1.1" 200 633
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 72
+"PUT /carts/ HTTP/1.1" 200 72
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 633
+"PUT /carts/ HTTP/1.1" 200 72
+"GET /carts/ HTTP/1.1" 200 633
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 633
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 72
+"GET /carts/ HTTP/1.1" 200 634
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 634
+"PUT /carts/ HTTP/1.1" 200 72
+"GET /carts/ HTTP/1.1" 200 635
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 634
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84362
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84362
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84362
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84362
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84362
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+"GET /carts/ HTTP/1.1" 200 633
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+"GET /carts/ HTTP/1.1" 200 634
+"GET /carts/ HTTP/1.1" 200 634
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84374
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84374
+"GET /carts/ HTTP/1.1" 200 633
+"GET /carts/ HTTP/1.1" 200 633
+"GET /carts/ HTTP/1.1" 200 633
+"GET /carts/ HTTP/1.1" 200 633
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84374
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84374
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84374
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84374
+"GET /carts/ HTTP/1.1" 200 634
+"GET /carts/ HTTP/1.1" 200 634
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 84376
+"GET /carts/ HTTP/1.1" 200 634
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 102014
+"GET /carts/ HTTP/1.1" 200 634
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 102014
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 102014
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 102014
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 133, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 101978
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 133, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 101971
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 132, in delete
+    selected_sku=client.smember('selected_%s'%user.id)
+AttributeError: 'Redis' object has no attribute 'smember'
+"DELETE /carts/ HTTP/1.1" 500 102000
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 307
+"GET /carts/ HTTP/1.1" 200 307
+"GET /carts/ HTTP/1.1" 200 307
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 169, in put
+    selected_sku.sadd('selected_%s'%user.id,sku_id)
+AttributeError: 'set' object has no attribute 'sadd'
+"PUT /carts/ HTTP/1.1" 500 85074
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 167, in put
+    selected_sku.srem('selected_%s'%user.id,sku_id)
+AttributeError: 'set' object has no attribute 'srem'
+"PUT /carts/ HTTP/1.1" 500 85031
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 169, in put
+    selected_sku.sadd('selected_%s'%user.id,sku_id)
+AttributeError: 'set' object has no attribute 'sadd'
+"PUT /carts/ HTTP/1.1" 500 85074
+"GET /carts/ HTTP/1.1" 200 308
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 169, in put
+    selected_sku.sadd('selected_%s'%user.id,sku_id)
+AttributeError: 'set' object has no attribute 'sadd'
+"PUT /carts/ HTTP/1.1" 500 85074
+"GET /carts/ HTTP/1.1" 200 308
+Watching for file changes with StatReloader
+Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 169, in put
+    selected_sku.sadd('selected_%s'%user.id,sku_id)
+AttributeError: 'set' object has no attribute 'sadd'
+"PUT /carts/ HTTP/1.1" 500 102712
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 72
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 308
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 307
+"PUT /carts/ HTTP/1.1" 200 72
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 307
+"PUT /carts/ HTTP/1.1" 200 71
+"POST /browse_histories/ HTTP/1.1" 200 27
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 307
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 525
+"GET /carts/ HTTP/1.1" 200 307
+"POST /browse_histories/ HTTP/1.1" 200 27
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"GET /hot/115/ HTTP/1.1" 200 802
+"POST /browse_histories/ HTTP/1.1" 200 27
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 525
+"GET /areas/ HTTP/1.1" 200 1772
+"GET /addresses/ HTTP/1.1" 200 577
+"OPTIONS /addresses/3/default/ HTTP/1.1" 200 0
+"PUT /addresses/3/default/ HTTP/1.1" 200 52
+"GET /areas/ HTTP/1.1" 200 1772
+"GET /addresses/ HTTP/1.1" 200 577
+"GET /areas/ HTTP/1.1" 200 1772
+"GET /addresses/ HTTP/1.1" 200 577
+"GET /carts/ HTTP/1.1" 200 307
+Not Found: /orders/settlement/
+"GET /orders/settlement/ HTTP/1.1" 404 6487
+"OPTIONS /orders/commit/ HTTP/1.1" 200 0
+Not Found: /orders/commit/
+"POST /orders/commit/ HTTP/1.1" 404 6476
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 525
+"GET /areas/ HTTP/1.1" 200 1772
+"GET /addresses/ HTTP/1.1" 200 577
+"OPTIONS /logout/ HTTP/1.1" 200 0
+"DELETE /logout/ HTTP/1.1" 200 27
+"GET /info/ HTTP/1.1" 200 55
+"GET /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /carts/ HTTP/1.1" 200 630
+"PUT /carts/ HTTP/1.1" 200 72
+"GET /carts/ HTTP/1.1" 200 629
+"DELETE /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 370
+"PUT /carts/ HTTP/1.1" 200 72
+"GET /carts/ HTTP/1.1" 200 369
+"PUT /carts/ HTTP/1.1" 200 72
+"GET /carts/ HTTP/1.1" 200 369
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 369
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+Watching for file changes with StatReloader
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"OPTIONS /login/ HTTP/1.1" 200 0
+"POST /login/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"OPTIONS /logout/ HTTP/1.1" 200 0
+"DELETE /logout/ HTTP/1.1" 200 27
+"DELETE /logout/ HTTP/1.1" 200 27
+Not Found: /search/
+"GET /search/?q=huaw&page=1&page_size=6 HTTP/1.1" 404 6488
+Not Found: /search/
+"GET /search/?q=huaw&page=1&page_size=6 HTTP/1.1" 404 6488
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /login/ HTTP/1.1" 200 27
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"DELETE /logout/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 369
+"OPTIONS /carts/ HTTP/1.1" 200 0
+"PUT /carts/ HTTP/1.1" 200 71
+Watching for file changes with StatReloader
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+"GET /hot/115/ HTTP/1.1" 200 802
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6472
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 369
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"OPTIONS /carts/selection/ HTTP/1.1" 200 0
+"PUT /carts/selection/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 370
+"PUT /carts/selection/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 369
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6635
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6635
+"GET /hot/157/ HTTP/1.1" 200 461
+"GET /list/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 575
+"OPTIONS /detail/visit/157/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6635
+"POST /detail/visit/157/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 634
+"PUT /carts/selection/ HTTP/1.1" 200 27
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 635
+"PUT /carts/selection/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 634
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 634
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6635
+Not Found: /carts/simple/
+"GET /carts/simple/ HTTP/1.1" 404 6635
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 634
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 634
+"PUT /carts/ HTTP/1.1" 200 71
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 634
+"PUT /carts/ HTTP/1.1" 200 71
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 634
+"GET /carts/simple/ HTTP/1.1" 200 554
+"GET /carts/ HTTP/1.1" 200 634
+"GET /carts/ HTTP/1.1" 200 634
+"GET /carts/ HTTP/1.1" 200 634
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6789
+"GET /carts/simple/ HTTP/1.1" 200 554
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 634
+"GET /carts/ HTTP/1.1" 200 634
+"GET /carts/ HTTP/1.1" 200 634
+Watching for file changes with StatReloader
+"GET /carts/simple/ HTTP/1.1" 200 554
+"GET /carts/ HTTP/1.1" 200 634
+"OPTIONS /carts/ HTTP/1.1" 200 0
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"PUT /carts/ HTTP/1.1" 200 71
+"GET /carts/ HTTP/1.1" 200 634
+"PUT /carts/ HTTP/1.1" 200 72
+"PUT /carts/ HTTP/1.1" 200 72
+"GET /carts/ HTTP/1.1" 200 635
+"PUT /carts/ HTTP/1.1" 200 73
+"PUT /carts/ HTTP/1.1" 200 72
+"PUT /carts/ HTTP/1.1" 200 73
+"GET /carts/ HTTP/1.1" 200 639
+"PUT /carts/ HTTP/1.1" 200 72
+"OPTIONS /carts/selection/ HTTP/1.1" 200 0
+"PUT /carts/selection/ HTTP/1.1" 200 27
+"PUT /carts/selection/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 639
+"GET /carts/simple/ HTTP/1.1" 200 557
+"GET /carts/ HTTP/1.1" 200 639
+"GET /carts/ HTTP/1.1" 200 639
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /carts/simple/ HTTP/1.1" 200 557
+"GET /carts/ HTTP/1.1" 200 639
+"OPTIONS /login/ HTTP/1.1" 200 0
+"POST /login/ HTTP/1.1" 200 27
+"GET /carts/simple/ HTTP/1.1" 200 267
+"GET /carts/ HTTP/1.1" 200 307
+"GET /carts/ HTTP/1.1" 200 307
+"GET /carts/ HTTP/1.1" 200 307
+"GET /carts/ HTTP/1.1" 200 307
+"OPTIONS /carts/ HTTP/1.1" 200 0
+"PUT /carts/ HTTP/1.1" 200 71
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 307
+"GET /carts/simple/ HTTP/1.1" 200 267
+"OPTIONS /logout/ HTTP/1.1" 200 0
+"DELETE /logout/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 44
+"GET /carts/simple/ HTTP/1.1" 200 44
+"GET /carts/simple/ HTTP/1.1" 200 44
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+"GET /hot/115/ HTTP/1.1" 200 802
+"GET /carts/simple/ HTTP/1.1" 200 44
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 369
+"POST /login/ HTTP/1.1" 200 27
+"GET /carts/simple/ HTTP/1.1" 200 554
+"GET /carts/ HTTP/1.1" 200 634
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\oauth\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 525
+"GET /areas/ HTTP/1.1" 200 1772
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 634
+"GET /orders/settlement/ HTTP/1.1" 200 1085
+"GET /areas/ HTTP/1.1" 200 1772
+"GET /addresses/ HTTP/1.1" 200 577
+"GET /orders/settlement/ HTTP/1.1" 200 1085
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/settlement/ HTTP/1.1" 200 1099
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/settlement/ HTTP/1.1" 200 1102
+Watching for file changes with StatReloader
+"GET /carts/simple/ HTTP/1.1" 200 44
+"GET /carts/ HTTP/1.1" 200 44
+"GET /carts/simple/ HTTP/1.1" 200 44
+"GET /carts/simple/ HTTP/1.1" 200 44
+"GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1521
+"GET /hot/115/ HTTP/1.1" 200 802
+"OPTIONS /browse_histories/ HTTP/1.1" 200 0
+"GET /carts/simple/ HTTP/1.1" 200 44
+"OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+"POST /browse_histories/ HTTP/1.1" 200 55
+"POST /detail/visit/115/ HTTP/1.1" 200 27
+"OPTIONS /carts/ HTTP/1.1" 200 0
+"POST /carts/ HTTP/1.1" 200 27
+"GET /carts/ HTTP/1.1" 200 368
+"GET /orders/settlement/ HTTP/1.1" 200 63
+"GET /orders/settlement/ HTTP/1.1" 200 63
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/settlement/ HTTP/1.1" 200 55
+"GET /orders/settlement/ HTTP/1.1" 200 55
+"GET /orders/settlement/ HTTP/1.1" 200 55
+"GET /orders/settlement/ HTTP/1.1" 200 55
+"GET /orders/settlement/ HTTP/1.1" 200 55
+"OPTIONS /logout/ HTTP/1.1" 200 0
+"DELETE /logout/ HTTP/1.1" 200 27
+"OPTIONS /login/ HTTP/1.1" 200 0
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 138, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 670, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py", line 96, in post
+    login(request,user)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 42, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 150, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 73, in exists
+    bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\cache\backends\base.py", line 299, in __contains__
+    return self.has_key(key)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 668, in has_key
+    return client.exists(key) == 1
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\commands\core.py", line 1736, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 624, in execute_command
+    return self._execute_command(*args, **options)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 630, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\utils.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 1530, in get_connection
+    connection.connect()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 138, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 670, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py", line 96, in post
+    login(request,user)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 42, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 150, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 73, in exists
+    bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\cache\backends\base.py", line 299, in __contains__
+    return self.has_key(key)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 668, in has_key
+    return client.exists(key) == 1
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\commands\core.py", line 1736, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 624, in execute_command
+    return self._execute_command(*args, **options)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 630, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\utils.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 1530, in get_connection
+    connection.connect()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 138, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 670, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py", line 96, in post
+    login(request,user)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 42, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 150, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 73, in exists
+    bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\cache\backends\base.py", line 299, in __contains__
+    return self.has_key(key)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 668, in has_key
+    return client.exists(key) == 1
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\commands\core.py", line 1736, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 624, in execute_command
+    return self._execute_command(*args, **options)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 630, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\utils.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 1530, in get_connection
+    connection.connect()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 138, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 670, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py", line 96, in post
+    login(request,user)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 42, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 150, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 73, in exists
+    bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\cache\backends\base.py", line 299, in __contains__
+    return self.has_key(key)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 668, in has_key
+    return client.exists(key) == 1
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\commands\core.py", line 1736, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 624, in execute_command
+    return self._execute_command(*args, **options)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 630, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\utils.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 1530, in get_connection
+    connection.connect()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 138, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 670, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py", line 96, in post
+    login(request,user)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 42, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 150, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 73, in exists
+    bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\cache\backends\base.py", line 299, in __contains__
+    return self.has_key(key)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 668, in has_key
+    return client.exists(key) == 1
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\commands\core.py", line 1736, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 624, in execute_command
+    return self._execute_command(*args, **options)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 630, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\utils.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 1530, in get_connection
+    connection.connect()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+"POST /login/ HTTP/1.1" 500 176765
+"POST /login/ HTTP/1.1" 500 176765
+"POST /login/ HTTP/1.1" 500 176765
+"POST /login/ HTTP/1.1" 500 176765
+"POST /login/ HTTP/1.1" 500 176765
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 138, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 670, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py", line 96, in post
+    login(request,user)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 42, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 150, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 73, in exists
+    bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\cache\backends\base.py", line 299, in __contains__
+    return self.has_key(key)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 668, in has_key
+    return client.exists(key) == 1
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\commands\core.py", line 1736, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 624, in execute_command
+    return self._execute_command(*args, **options)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 630, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\utils.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 1530, in get_connection
+    connection.connect()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+"POST /login/ HTTP/1.1" 500 176765
+"POST /login/ HTTP/1.1" 200 75
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 138, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 670, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\users\views.py", line 96, in post
+    login(request,user)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 42, in create
+    self._session_key = self._get_new_session_key()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\base.py", line 150, in _get_new_session_key
+    if not self.exists(session_key):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\sessions\backends\cache.py", line 73, in exists
+    bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\cache\backends\base.py", line 299, in __contains__
+    return self.has_key(key)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django_redis\client\default.py", line 668, in has_key
+    return client.exists(key) == 1
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\commands\core.py", line 1736, in exists
+    return self.execute_command("EXISTS", *names, keys=names)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 624, in execute_command
+    return self._execute_command(*args, **options)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\client.py", line 630, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\utils.py", line 188, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 1530, in get_connection
+    connection.connect()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\redis\connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+"POST /login/ HTTP/1.1" 500 176765
+Watching for file changes with StatReloader
+"POST /login/ HTTP/1.1" 200 27
+"GET /carts/simple/ HTTP/1.1" 200 554
+"GET /carts/ HTTP/1.1" 200 633
+"GET /orders/settlement/ HTTP/1.1" 200 1102
+"OPTIONS /orders/commit/ HTTP/1.1" 200 0
+Watching for file changes with StatReloader
+"POST /orders/commit/ HTTP/1.1" 200 122
+"PUT /carts/ HTTP/1.1" 200 72
+"GET /orders/settlement/ HTTP/1.1" 200 877
+Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 390, in post
+    OrderGoods.objects.create(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\query.py", line 656, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'20260225105716000000009'": "OrderGoods.order" must be a "OrderInfo" instance.
+"POST /orders/commit/ HTTP/1.1" 500 128256
+Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 390, in post
+    OrderGoods.objects.create(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\query.py", line 656, in create
+    obj = self.model(**kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'20260225105736000000009'": "OrderGoods.order" must be a "OrderInfo" instance.
+"POST /orders/commit/ HTTP/1.1" 500 128256
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /orders/commit/ HTTP/1.1" 200 66
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 525
+"GET /info/ HTTP/1.1" 200 142
+"GET /browse_histories/ HTTP/1.1" 200 525
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 634
+"GET /orders/settlement/ HTTP/1.1" 200 877
+"OPTIONS /orders/commit/ HTTP/1.1" 200 0
+"POST /orders/commit/ HTTP/1.1" 200 51
+"GET /orders/settlement/ HTTP/1.1" 200 877
+"POST /orders/commit/ HTTP/1.1" 200 66
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /carts/ HTTP/1.1" 200 634
+"GET /carts/ HTTP/1.1" 200 44
+"OPTIONS /login/ HTTP/1.1" 200 0
+"POST /login/ HTTP/1.1" 200 27
+"GET /orders/settlement/ HTTP/1.1" 200 877
+"GET /carts/simple/ HTTP/1.1" 200 554
+"GET /carts/ HTTP/1.1" 200 634
+"GET /orders/settlement/ HTTP/1.1" 200 877
+"OPTIONS /orders/commit/ HTTP/1.1" 200 0
+"POST /orders/commit/ HTTP/1.1" 200 76
+Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\connections.py", line 575, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\connections.py", line 826, in _read_query_result
+    result.read()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\connections.py", line 1203, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\connections.py", line 782, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '202602251201042026-02-25000000009' for key 'tb_order_info.PRIMARY'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py", line 364, in post
+    orderinfo = OrderInfo.objects.create(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\connections.py", line 575, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\connections.py", line 826, in _read_query_result
+    result.read()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\connections.py", line 1203, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\connections.py", line 782, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Tom\.conda\envs\Django_test\lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '202602251201042026-02-25000000009' for key 'tb_order_info.PRIMARY'")
+"POST /orders/commit/ HTTP/1.1" 500 263193
+"POST /orders/commit/ HTTP/1.1" 200 76
+"POST /orders/commit/ HTTP/1.1" 200 76
+"POST /orders/commit/ HTTP/1.1" 200 76
+"POST /orders/commit/ HTTP/1.1" 200 184
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Tom\Desktop\django\meiduo\meiduo_shop\apps\carts\views.py changed, reloading.
+Watching for file changes with StatReloader
